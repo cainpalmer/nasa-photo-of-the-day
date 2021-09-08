@@ -1,3 +1,9 @@
+
+/* CSS */
+*{
+  background-color: #4f0904;
+}
+
 .App {
   text-align: center;
 }
@@ -7,21 +13,43 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AppInfo {
+  text-align: center;
+}
+
+img {
+  border-style: solid;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(34, 16, 16);
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  top: 0;
+  text-decoration: underline;
+}
+
+h3 {
+  color: grey;
+}
+
+p {
   color: white;
+  border-style: solid;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 3%;
 }
 
 .App-link {
